@@ -14,4 +14,3 @@ if nova[0] == nova[len(nova)-1]:
     soma += nova[0]
 
 print(soma)
-print('oi')
