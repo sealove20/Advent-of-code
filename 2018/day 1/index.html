@@ -1,0 +1,23 @@
+<input type="file">
+
+
+
+<script>
+num = prompt("DIGITE")
+  document.querySelector('input').onchange = function() {
+    
+    const file = this.files[0];
+    const reader = new FileReader();
+    let frequency = 0;
+
+    // part 1
+    /*reader.onload = function(progressEvent) {
+      const lines  = this.result.split('\n');
+      for(let line = 0; line < lines.length; line++) {
+        frequency += parseInt(lines[line]);
+      }
+      console.log(frequency);
+    };
+    reader.readAsText(file);*/
+  };
+</script>
